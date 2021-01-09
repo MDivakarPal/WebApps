@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>
+            CSS Outline
+        </title>
+        <style>
+            /*Use to give outline to a HTML element*/
+            .outline-div
+            {
+                border: 5px solid black;
+                outline: 15px solid green;
+                outline-offset: 3px;
+                height: 400px;
+                width: 100%;
+                transition: width 2s;
+                margin: 0px;
+                line-height: 100px;
+            }
+
+            .outline-div:hover
+            {
+                width: 50%;
+            }
+            .menu
+            {
+                background-color: blue;
+                height: 20px;
+                width: 50px;
+                margin-top: 20px;
+                color: white;
+                transition: width 2s ,height 2s;
+                overflow: hidden;
+            }
+
+            .menu:hover
+            {
+                height: 300px;
+                width: 50px;
+                cursor: pointer;
+            }
+            .menus
+            {
+                background-color: green;
+                color: white;
+                height: 30px;
+                width: 50px;
+                margin-top: 5px;
+                outline: 2px black solid ;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="outline-div">
+            <H4>This is example of outline property of CSS</H4>
+        </div>
+        <div class="menu">
+            <b class="menu-head">Menu</b>
+            <div class="menus">Home</div>
+            <div class="menus">About us</div>
+            <div class="menus">Contact us</div>
+            <div class="menus">Register</div>
+        </div>
+        </div>
+    </body>
+</html>
